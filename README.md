@@ -6,7 +6,7 @@ Design files contain:
 (3)CheckSum_Verification.v : Verifies that matrix column and row checksums are consistent with reference values                                      
 (4)FSM_for_Baseline_with_Fault_Tolerance_Logic.v : Control data path data processing timing                                                        
 (5)MACs.v : Multiply_Accumulate                      
-(6)mux32.v : Data Selector
+(6)mux32.v : Data Selector                                             
 (7)Circular_Shifter : Matrix Row Rotation 
 Simulation files contain:                                                                                           
 (1)tb_top.v : Joint functional simulation                                                                                        
@@ -14,5 +14,5 @@ Simulation files contain:
 (3)tb_CheckSum_Verification.v : CheckSum_Verification simulation                                                                                
 (4)tb_FSM_for_Baseline_with_Fault_Tolerance_Logic.v : Datapath Controller simulation                                                              
 (5)tb_MACs.v : MACs simulation                                                                   
-(6)tb_mux32.v : mux32 simulation    '
+(6)tb_mux32.v : mux32 simulation    '                                                                   
 (7)tb_Circular_Shifter : Circular_Shifter simulation
