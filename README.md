@@ -8,6 +8,9 @@ Design files contain:
 (5)MACs.v : Multiply_Accumulate                      
 (6)mux32.v : Data Selector                                             
 (7)Circular_Shifter : Matrix Row Rotation 
+(8)RAM_Read_Controller: takes data from BRAM and sends it to the accelerator core
+(9) RAM_Write_Controller: Data is received from the accelerator core and written to BRAM
+(10) top_ram.v: top contains RAM Controller and BRAM
 Simulation files contain:                                                                                           
 (1)tb_top.v : Joint functional simulation                                                                                        
 (2)tb_CheckSum_Generation.v : CheckSum_Generation simulation                                             
@@ -16,3 +19,6 @@ Simulation files contain:
 (5)tb_MACs.v : MACs simulation                                                                   
 (6)tb_mux32.v : mux32 simulation    '                                                                   
 (7)tb_Circular_Shifter : Circular_Shifter simulation
+(8)tb_RAM_Read_Controller: RAM_Read_Controller simulation
+(9) tb_RAM_Write_Controller: RAM_Write_Controller simulation
+(10) tb_top_ram.v: top_ram simulation
